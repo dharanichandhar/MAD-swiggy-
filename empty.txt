@@ -1,1 +1,251 @@
-hello dharani
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MainApp());
+}
+
+class MainApp extends StatelessWidget {
+  const MainApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("Restaurant Menu"),
+          backgroundColor: const Color.fromARGB(255, 248, 61, 4),
+        ),
+        body: ListView(
+          children: [
+            Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(10),
+                boxShadow: [
+                  BoxShadow(
+                    spreadRadius: 2,
+                    blurRadius: 10,
+                    offset: Offset(0, 5),
+                    color: Colors.black26,
+                  ),
+                ],
+              ),
+              height: 90,
+              width: double.infinity,
+              margin: EdgeInsets.all(10),
+              padding: EdgeInsets.all(10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "Chicken Noodles",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text("Delicious chicken noodles with spices"),
+                  Text(
+                    "29.43",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ),
+
+             Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(10),
+                boxShadow: [
+                  BoxShadow(
+                    spreadRadius: 2,
+                    blurRadius: 10,
+                    offset: Offset(0, 5),
+                    color: Colors.black26,
+                  ),
+                ],
+              ),
+              height: 90,
+              width: double.infinity,
+              margin: EdgeInsets.all(10),
+              padding: EdgeInsets.all(10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "Chicken Rice",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text("Delicious chicken Rice with spices"),
+                  Text(
+                    "30.21",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ),
+             Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(10),
+                boxShadow: [
+                  BoxShadow(
+                    spreadRadius: 2,
+                    blurRadius: 10,
+                    offset: Offset(0, 5),
+                    color: Colors.black26,
+                  ),
+                ],
+              ),
+              height: 90,
+              width: double.infinity,
+              margin: EdgeInsets.all(10),
+              padding: EdgeInsets.all(10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "Mutton Dosa",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text("Delicious mutton pieces"),
+                  Text(
+                    "34.21",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ),
+             Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(10),
+                boxShadow: [
+                  BoxShadow(
+                    spreadRadius: 2,
+                    blurRadius: 10,
+                    offset: Offset(0, 5),
+                    color: Colors.black26,
+                  ),
+                ],
+              ),
+              height: 90,
+              width: double.infinity,
+              margin: EdgeInsets.all(10),
+              padding: EdgeInsets.all(10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "Nan with chiken gravey",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text("Very delicious chiken gravey"),
+                  Text(
+                    "29.83",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ),
+             Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(10),
+                boxShadow: [
+                  BoxShadow(
+                    spreadRadius: 2,
+                    blurRadius: 10,
+                    offset: Offset(0, 5),
+                    color: Colors.black26,
+                  ),
+                ],
+              ),
+              height: 90,
+              width: double.infinity,
+              margin: EdgeInsets.all(10),
+              padding: EdgeInsets.all(10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "choco Desert",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text("very Yummy..!"),
+                  Text(
+                    "32.43",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ),
+             Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(10),
+                boxShadow: [
+                  BoxShadow(
+                    spreadRadius: 2,
+                    blurRadius: 10,
+                    offset: Offset(0, 5),
+                    color: Colors.black26,
+                  ),
+                ],
+              ),
+              height: 90,
+              width: double.infinity,
+              margin: EdgeInsets.all(10),
+              padding: EdgeInsets.all(10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    " Noodles",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text("Delicious noodles with spices"),
+                  Text(
+                    "19.43",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ),
+             Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(10),
+                boxShadow: [
+                  BoxShadow(
+                    spreadRadius: 2,
+                    blurRadius: 10,
+                    offset: Offset(0, 5),
+                    color: Colors.black26,
+                  ),
+                ],
+              ),
+              height: 90,
+              width: double.infinity,
+              margin: EdgeInsets.all(10),
+              padding: EdgeInsets.all(10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "Veg Rice",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text("very super veg rice"),
+                  Text(
+                    "29.43",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
